@@ -104,7 +104,6 @@ module.exports = {
 		"@typescript-eslint/restrict-template-expressions": "error",
 		"@typescript-eslint/sort-type-constituents": "error",
 		"@typescript-eslint/strict-boolean-expressions": "error",
-		"@typescript-eslint/strict-null-checks": "error",
 		"@typescript-eslint/switch-exhaustiveness-check": "error",
 		"@typescript-eslint/unified-signatures": "error",
 		curly: ["error", "all"],
