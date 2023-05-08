@@ -48,7 +48,8 @@ module.exports = {
 		'@typescript-eslint/switch-exhaustiveness-check': 'error',
 		'@typescript-eslint/no-unnecessary-type-arguments': 'error',
 		'@typescript-eslint/method-signature-style': [
-			'error'
+			'error',
+			'property'
 		],
 		'@typescript-eslint/consistent-type-imports': [
 			'error',
