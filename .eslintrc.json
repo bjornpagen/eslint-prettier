@@ -3,13 +3,14 @@
 		"browser": true,
 		"es2021": true
 	},
-	"plugins": ["@typescript-eslint", "prettier", "unicorn"],
+	"plugins": ["@typescript-eslint", "prettier", "unicorn", "promise"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:@typescript-eslint/recommended-requiring-type-checking",
 		"plugin:@typescript-eslint/strict",
 		"plugin:unicorn/all",
+		"plugin:promise/recommended",
 		"prettier"
 	],
 	"overrides": [],
@@ -102,6 +103,8 @@
 		"no-unused-vars": "off",
 		"@typescript-eslint/no-unused-vars": "error",
 		"unicorn/catch-error-name": "off",
-		"unicorn/prevent-abbreviations": "off"
+		"unicorn/prevent-abbreviations": "off",
+		"promise/prefer-await-to-then": "error",
+		"promise/prefer-await-to-callbacks": "error"
 	}
 }
