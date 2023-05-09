@@ -86,10 +86,9 @@
 			},
 			{
 				"selector": "PropertyDefinition[accessibility='private'], PropertyDefinition[accessibility='protected']",
-				"message": "Use JS private #fields instead of private or protected symbols"
+				"message": "Use JS private #fields instead of private or protected"
 			},
 			{
-				// no abstract classes
 				"selector": "ClassDeclaration[abstract=true]",
 				"message": "Abstract classes are not allowed"
 			}
